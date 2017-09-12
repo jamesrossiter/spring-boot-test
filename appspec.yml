@@ -8,7 +8,7 @@ hooks:
     - location: ./application_start.sh
       timeout: 30
       runas: root
-  ApplicationStart:
+  ApplicationStop:
     - location: ./application_stop.sh
       timeout: 30
       runas: root
