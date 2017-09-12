@@ -5,6 +5,6 @@ files:
     destination: /tmp
 hooks:
   ApplicationStart:
-    - location: /tmp/application_start.sh
+    - location: ./application_start.sh
       timeout: 30
       runas: root
