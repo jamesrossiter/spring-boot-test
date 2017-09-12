@@ -1,3 +1,3 @@
 #!/bin/bash
-#cd /tmp
+cd /tmp
 if [ -f springboottest.pid ]; then kill `cat springboottest.pid`; fi
